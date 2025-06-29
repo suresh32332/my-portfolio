@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+Header ul li{
+    @apply px-2
+}
