@@ -1,15 +1,17 @@
 import Header from './component/header'
 import './App.css'
-import CenterSelection from './component/CenterSelection'
+import CenterSection from './component/CenterSection'
 import About from './component/About'
+import ProjectSection from './component/ProjectSection'
 
 function App() {
   return (
 
     <div className="App">
          <Header/>
-         <CenterSelection/>
+         <CenterSection/>
          <About/>
+         <ProjectSection/>
     </div>
 
   )
