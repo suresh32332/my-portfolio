@@ -1,9 +1,9 @@
-import Aboutimg from "../assets/aboutimg.jpg";
+import Aboutimg from "../assets/show.png";
 
 export default function About() {
 
     return (
-        <section className=" flex flex-col md:flex-row bg-secondary px-5 text-white">
+        <section id="about" className=" flex flex-col md:flex-row bg-secondary px-5 text-white">
             <div className="flex-row md: w-1/2">
                 <img src={Aboutimg} />
             </div>

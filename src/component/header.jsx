@@ -9,19 +9,22 @@ export default function Header() {
       <a className="font-bold  text-black" href="#">Suresh T</a>
       <nav className="hidden md:block">
         <ul class="flex text-white" >
-          <li><a href="#" >About me</a></li>
-          <li><a href="#" >Projects</a></li>
-          <li><a href="#" >Resume</a></li>
-          <li><a href="#" >Contact</a></li>
+          <li><a href="/" >Home</a></li>
+          <li><a href="#about" >About me </a></li>
+          <li><a href="#project" >Projects</a></li>
+          <li><a href="#resume" >Resume</a></li>
+          <li><a href="#contact" >Contact</a></li>
         </ul>
       </nav>
 
       {toggleMenu && <nav className="block md:hidden ">
-        <ul class="flex flex-col text-white mobile-nav" >
-          <li><a href="#" >About me</a></li>
-          <li><a href="#" >Projects</a></li>
-          <li><a href="#" >Resume</a></li>
-          <li><a href="#" >Contact</a></li>
+        <ul onClick={() =>setToggleMenu(!toggleMenu)} class="flex flex-col text-white mobile-nav" >
+      <li><a href="/" >Home</a></li>
+          <li><a href="#about" >About me </a></li>
+          <li><a href="#project" >Projects</a></li>
+          <li><a href="#resume" >Resume</a></li>
+          <li><a href="#contact" >Contact</a></li>
+      
         </ul>
       </nav>
       }
