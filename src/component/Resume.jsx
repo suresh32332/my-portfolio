@@ -1,5 +1,6 @@
 import Aboutimg from "../assets/show.png";
 
+
 export default function Resume() {
 
     return (
@@ -10,7 +11,7 @@ export default function Resume() {
             <div className=" flex flex-col justify-center ">
                 <div className=" flex flex-col justify-center p-3">
                     <h1 className=" border-b-3 border-primary mb-5 w-[140px] text-4xl font-bold" >Resume </h1>
-                    <p className="pb-5">You can view my Resume<a className="dbtn" href="#"> Download</a> </p>
+                    <p className="pb-5">You can view my Resume<a  download className="dbtn" href="#"> Download</a> </p>
                 </div>
             </div>
 
