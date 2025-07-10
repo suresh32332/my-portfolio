@@ -17,6 +17,7 @@ Header ul li{
 .bg-secondary{
     background-color: rgb(157, 156, 212);
 }
+
 .mobile-nav{
     @apply fixed top-10 left-0 bg-gray-600 w-full h-1/5; 
 }

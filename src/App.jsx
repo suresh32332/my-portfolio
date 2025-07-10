@@ -1,5 +1,6 @@
 import Header from './component/header'
 import './App.css'
+import './index.css'
 import CenterSection from './component/CenterSection'
 import About from './component/About'
 import ProjectSection from './component/ProjectSection'

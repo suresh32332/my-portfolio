@@ -1,0 +1,9 @@
+.about-nav {
+    background: #8296ef;
+}
+.nav-bar :hover a { 
+    background-color: black;
+    border: 2px solid rgb(145, 246, 4);
+    border-radius:8px ;
+    color: rgb(228, 225, 220)
+}

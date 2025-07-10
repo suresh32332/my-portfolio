@@ -1,4 +1,4 @@
-import Aboutimg from "../assets/show.png";
+import Aboutimg from "../assets/me1.png";
 
 export default function About() {
     const config = {
@@ -8,8 +8,8 @@ export default function About() {
     }
     return (
         <section id="about" className=" flex flex-col md:flex-row bg-secondary px-5 text-white">
-            <div className="flex-row md: w-1/2">
-                <img src={Aboutimg} />
+            <div className="flex-row  md: w-1/2 p-5">
+             <img className=""src={Aboutimg} />
             </div>
             <div className=" flex flex-col justify-center ">
                 <div className=" flex flex-col justify-center p-3">

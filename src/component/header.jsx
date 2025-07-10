@@ -5,10 +5,10 @@ export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
-    <header class="flex justify-between px-4 py-2 bg-secondary">
-      <a className="font-bold  text-black" href="#">Suresh T</a>
+    <header class="about-nav flex justify-between px-4 py-2 ">
+      <a className="font-bold text-2xl  text-black" href="#">Suresh T</a>
       <nav className="hidden md:block">
-        <ul class="flex text-white" >
+        <ul class=" nav-bar flex text-[19px] text-white" >
           <li><a href="/" >Home</a></li>
           <li><a href="#about" >About me </a></li>
           <li><a href="#project" >Projects</a></li>
@@ -18,7 +18,7 @@ export default function Header() {
       </nav>
 
       {toggleMenu && <nav className="block md:hidden ">
-        <ul onClick={() =>setToggleMenu(!toggleMenu)} class="flex flex-col text-white mobile-nav" >
+        <ul onClick={() =>setToggleMenu(!toggleMenu)} class=" nav-bar flex flex-col text-white mobile-nav" >
       <li><a href="/" >Home</a></li>
           <li><a href="#about" >About me </a></li>
           <li><a href="#project" >Projects</a></li>
